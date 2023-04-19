@@ -38,7 +38,8 @@ int main() {
         printf("Reais   : R$  %.2lf\n", R);
         printf("Dollars : US$ %.2lf*\n\n", D);
         printf("*Taxes are not included.\n");
-    } else {
+    }
+    else {
         if (crcy == 1) {
             printf("Dollars --> Reais\n\n");
             printf("Dollars : US$ %.2lf\n", D);
